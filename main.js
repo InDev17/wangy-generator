@@ -2,7 +2,7 @@ const inputNama = document.getElementById('input-nama')
 const getContainer = document.querySelector('.container-text')
 const getCopy = document.getElementById('copy-button')
 
-function copytext(str) {
+const copytext = (str) => {
   let el = document.createElement('textarea');
   el.value = str;
   el.setAttribute('readonly', '');
