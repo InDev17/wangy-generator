@@ -21,6 +21,7 @@ const renderWangy = (waifu) => {
   getContainer.innerHTML = wangy;
   getCopy.addEventListener('click', (e) => {
     copytext(wangy)
+    alert('Text berhasil di copy!')
   })
   }
 }
