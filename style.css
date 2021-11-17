@@ -56,6 +56,14 @@ body {
   box-sizing: border-box;
 }
 
+.container-text::-webkit-scrollbar {
+  display: none;
+}
+
+.container-text {
+  scrollbar-width: none;
+}
+
 .copy-text {
   margin: 0;
   padding: 10px;
