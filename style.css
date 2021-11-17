@@ -21,6 +21,7 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .header-text {
@@ -50,10 +51,10 @@ body {
   width: 100%;
   height: 450px;
   border: 2px solid white;
-  overflow: scroll;
+  overflow-y: scroll;
   border-radius: 1rem;
   padding: 0.5rem;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 .container-text::-webkit-scrollbar {
