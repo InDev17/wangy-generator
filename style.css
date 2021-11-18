@@ -1,8 +1,8 @@
 body {
-    font-size: 15pt;
+  font-size: 15pt;
   margin: 0;
   padding: 0;
-  background-image: url(Rei.jpg);
+  background-image: url(images/Rei.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -21,7 +21,6 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .header-text {
@@ -51,18 +50,10 @@ body {
   width: 100%;
   height: 450px;
   border: 2px solid white;
-  overflow-y: scroll;
+  overflow: scroll;
   border-radius: 1rem;
   padding: 0.5rem;
-  box-sizing: content-box;
-}
-
-.container-text::-webkit-scrollbar {
-  display: none;
-}
-
-.container-text {
-  scrollbar-width: none;
+  box-sizing: border-box;
 }
 
 .copy-text {
