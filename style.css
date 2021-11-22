@@ -2,9 +2,7 @@ body {
   font-size: 15pt;
   margin: 0;
   padding: 0;
-  background-image: url(images/Rei.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #ddd;
   color: white;
 }
 
@@ -16,8 +14,7 @@ body {
 }
 
 .container {
-  width: 80%;
-  backdrop-filter: blur(15px) brightness(80%);
+  width: 100%;
   padding: 1rem;
   border-radius: 1rem;
   box-sizing: border-box;
